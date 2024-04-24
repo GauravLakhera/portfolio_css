@@ -4,185 +4,217 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-   
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <header>
-    <h3>Gaurav Lakhera</h3>
-    <!-- Navigator -->
-    <section>
-      <div>
-        <ul>
+    <header class="header">
+      <h2>Gaurav Lakhera</h2>
+      <!-- Navigator -->
+      <section>
+        <div>
+          <ul class="nav_list">
             <li><a href="index.html">Home</a></li>
-          <li><a href="about_me.html">About me</a></li>
-          <li><a href="projects.html">Projects</a></li>
-          <li><a href="contect.html">Contects</a></li>
+            <li><a href="about_me.html">About me</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contect.html">Contects</a></li>
+          </ul>
+        </div>
+      </section>
+    </header>
+    <body>
+      <h1>Projects</h1>
+      <hr />
+      <div class="project_container">
+        <img class="img" src="./images/foodfire1.png" width="500" />
+        <div class="hidden_text">
+          <h2>Food fire</h2>
+          <p>
+            A web application for food delivery using React, Tailwind CSS, and
+            Redux. This project aimed to provide users with a seamless
+            experience for browsing restaurants and placing orders online.
+          </p>
+          <h3 class="font_weight_2">Key Features:</h3>
+          <ul class="list_decoration">
+            <li>User-friendly interface for browsing restaurants and menus</li>
+            <li>Integration with Redux for centralized state management</li>
+            <li>
+              Responsive design using Tailwind CSS for optimal viewing on
+              various devices
+            </li>
+            <li>Real-time updates on order status and delivery tracking</li>
+          </ul>
+          <h3 class="font_weight_2">Technologies Used:</h3>
+          <ul class="list_decoration">
+            <li class="flex">
+              <img src="./icons/physics.png" width="20" height="20" />
+              <p>ReactJS: Frontend development</p>
+            </li>
+            <li class="flex">
+              <img src="./icons/pngwing.com (4).png" width="25" height="15" />
+              <p>Tailwind CSS: Styling and responsive design</p>
+            </li>
+            <li class="flex">
+              <img src="./icons/pngwing.com (5).png" width="20" height="20" />
+              <p>Redux: State management for enhanced scalability</p>
+            </li>
+          </ul>
+          <h3><a href="https://foodfire-c9888.web.app/">Live Link</a></h3>
+        </div>
+      </div>
+      <hr />
+
+      <div class="project_container">
+        <img class="img" src="./images/youtube.jpg" width="500" />
+        <div class="hidden_text">
+          <h2>YouTube</h2>
+          <p>
+            I developed a YouTube-inspired web application using React, Redux,
+            Tailwind CSS, and React Router. This project aimed to replicate core
+            features of the popular video-sharing platform, allowing users to
+            explore and interact with videos in a familiar environment.
+          </p>
+          <h3 class="font_weight_2">Key Features:</h3>
+          <ul class="list_decoration">
+            <li>
+              Replication of core features such as video playback, comments, and
+              likes
+            </li>
+            <li>
+              Advanced state management using Redux for seamless data flow
+            </li>
+            <li>Responsive and visually stunning design with Tailwind CSS</li>
+            <li>Efficient navigation and URL handling with React Router</li>
+          </ul>
+
+          <h3 class="font_weight_2">Technologies Used:</h3>
+          <ul class="list_decoration">
+            <li>ReactJS: Frontend development</li>
+            <li>Redux: State management for enhanced scalability</li>
+            <li>Tailwind CSS: Styling and responsive design</li>
+            <li>
+              React Router: Client-side routing for single-page applications
+            </li>
+          </ul>
+
+          <h3><a href="https://youtube-six-indol.vercel.app/">Live Link</a></h3>
+        </div>
+      </div>
+
+      <hr />
+      <div>
+        <h2>Screen Sync - Movie Recommendation Android Application</h2>
+        <img src="./images/deviceframes (1).png" width="250" />
+        <img src="./images/deviceframes (2).png" width="250" />
+        <img src="./images/deviceframes.png" width="250" />
+
+        <p>
+          I developed Screen Sync, an Android application designed for movie
+          enthusiasts. It offers personalized movie recommendations based on
+          user preferences and also showcases popular and upcoming movies. The
+          app seamlessly integrates with a Flask API to fetch real-time movie
+          recommendations, providing users with an engaging and tailored
+          movie-watching experience.
+        </p>
+
+        <h3>Key Features:</h3>
+        <ul>
+          <li>Personalized movie recommendations using machine learning</li>
+          <li>Display of popular and upcoming movies</li>
+          <li>
+            Integration with Flask API for real-time movie recommendations
+          </li>
+          <li>User-friendly interface for intuitive navigation</li>
+        </ul>
+
+        <h3>Technologies Used:</h3>
+        <ul>
+          <li>
+            Android Studio: Development environment for Android applications
+          </li>
+          <li>Java: Programming language for Android app development</li>
+          <li>Flask: Python web framework for building APIs</li>
+          <li>Machine learning: Python libraries for movie recommendation</li>
         </ul>
       </div>
-    </section>
+      <hr />
+      <div>
+        <h2>Arc Launcher - Android Launcher Application</h2>
+        <img src="./images/deviceframes (4).png" width="250" />
+        <img src="./images/deviceframes (5).png" width="250" />
+        <img src="./images/deviceframes (6).png" width="250" />
+        <p>
+          I developed Arc Launcher, an Android launcher application designed to
+          customize and enhance the user's home screen experience. Arc Launcher
+          allows users to personalize their device with custom widgets, app
+          icons, and themes. Additionally, it integrates various APIs to provide
+          real-time weather updates, calendar events, and news feeds directly on
+          the home screen.
+        </p>
+
+        <h3>Key Features:</h3>
+        <ul>
+          <li>Customizable home screen with personalized widgets and themes</li>
+          <li>
+            Integration with various APIs for weather updates, calendar events,
+            and news feeds
+          </li>
+          <li>User-friendly interface with intuitive navigation</li>
+        </ul>
+
+        <h3>Technologies Used:</h3>
+        <ul>
+          <li>Java: Programming language for Android app development</li>
+          <li>XML: Markup language for defining app layouts</li>
+          <li>
+            Android Studio: Development environment for Android applications
+          </li>
+          <li>
+            API Integration: Utilized various APIs for weather, calendar, and
+            news feeds
+          </li>
+        </ul>
+      </div>
+    </body>
+    <br />
+    <hr />
+    <footer>
+      <ul>
+        <li>
+          <a href="index.html">Home</a>
+        </li>
+        <li>
+          <a href="about_me.html">About me</a>
+        </li>
+        <li>
+          <a href="projects.html">projects</a>
+        </li>
+        <li>
+          <a href="contect.html">contect</a>
+        </li>
+      </ul>
+      <!-- Social link -->
+      <h3>contect me</h3>
+      <div>
+        <a href="https://www.linkedin.com/in/gaurav-lakhera/"
+          ><img src="./images/linkdin.png" width="30"
+        /></a>
+        <a href="https://github.com/GauravLakhera"
+          ><img src="./images/github.png" width="30"
+        /></a>
+        <a href="mailto:gauravlakhera01@gmail.com"
+          ><img src="./images/email.png" width="30"
+        /></a>
+        <a href="tel:+917906154013"
+          ><img src="./images/phone.png" width="30"
+        /></a>
+        &copy; Gaurav Lakhera
+      </div>
+    </footer>
   </header>
-  <body>
-    <h1>Projects</h1>
-    <div>
-      <h2>Food fire</h2>
-      <img src="./images/foodFire.jpg" width="500" />
-      <p>
-        I developed a web application for food delivery using React, Tailwind
-        CSS, and Redux. This project aimed to provide users with a seamless
-        experience for browsing restaurants and placing orders online.
-      </p>
-
-      <h3>Key Features:</h3>
-      <ul>
-        <li>User-friendly interface for browsing restaurants and menus</li>
-        <li>Integration with Redux for centralized state management</li>
-        <li>
-          Responsive design using Tailwind CSS for optimal viewing on various
-          devices
-        </li>
-        <li>Real-time updates on order status and delivery tracking</li>
-      </ul>
-      <h3>Technologies Used:</h3>
-      <ul>
-        <li>ReactJS: Frontend development</li>
-        <li>Tailwind CSS: Styling and responsive design</li>
-        <li>Redux: State management for enhanced scalability</li>
-      </ul>
-      <h3><a href="https://foodfire-c9888.web.app/">Live Link</a></h3>
-    </div>
-    <hr />
-    <div>
-      <h2>YouTube</h2>
-      <img src="./images/youtube.jpg" width="500" />
-      <p>
-        I developed a YouTube-inspired web application using React, Redux,
-        Tailwind CSS, and React Router. This project aimed to replicate core
-        features of the popular video-sharing platform, allowing users to
-        explore and interact with videos in a familiar environment.
-      </p>
-
-      <h3>Key Features:</h3>
-      <ul>
-        <li>
-          Replication of core features such as video playback, comments, and
-          likes
-        </li>
-        <li>Advanced state management using Redux for seamless data flow</li>
-        <li>Responsive and visually stunning design with Tailwind CSS</li>
-        <li>Efficient navigation and URL handling with React Router</li>
-      </ul>
-
-      <h3>Technologies Used:</h3>
-      <ul>
-        <li>ReactJS: Frontend development</li>
-        <li>Redux: State management for enhanced scalability</li>
-        <li>Tailwind CSS: Styling and responsive design</li>
-        <li>React Router: Client-side routing for single-page applications</li>
-      </ul>
-
-      <h3><a href="https://youtube-six-indol.vercel.app/">Live Link</a></h3>
-    </div>
-    c:\Users\gaurav lakhera\Pictures\deviceframes.png c:\Users\gaurav
-    lakhera\Pictures\deviceframes (1).png c:\Users\gaurav
-    lakhera\Pictures\deviceframes (2).png
-    <hr />
-    <div>
-      <h2>Screen Sync - Movie Recommendation Android Application</h2>
-      <img src="./images/deviceframes (1).png" width="250" />
-      <img src="./images/deviceframes (2).png" width="250" />
-      <img src="./images/deviceframes.png" width="250" />
-
-      <p>
-        I developed Screen Sync, an Android application designed for movie
-        enthusiasts. It offers personalized movie recommendations based on user
-        preferences and also showcases popular and upcoming movies. The app
-        seamlessly integrates with a Flask API to fetch real-time movie
-        recommendations, providing users with an engaging and tailored
-        movie-watching experience.
-      </p>
-
-      <h3>Key Features:</h3>
-      <ul>
-        <li>Personalized movie recommendations using machine learning</li>
-        <li>Display of popular and upcoming movies</li>
-        <li>Integration with Flask API for real-time movie recommendations</li>
-        <li>User-friendly interface for intuitive navigation</li>
-      </ul>
-
-      <h3>Technologies Used:</h3>
-      <ul>
-        <li>
-          Android Studio: Development environment for Android applications
-        </li>
-        <li>Java: Programming language for Android app development</li>
-        <li>Flask: Python web framework for building APIs</li>
-        <li>Machine learning: Python libraries for movie recommendation</li>
-      </ul>
-    </div>
-    <hr />
-    <div>
-      <h2>Arc Launcher - Android Launcher Application</h2>
-      <img src="./images/deviceframes (4).png" width="250" />
-      <img src="./images/deviceframes (5).png" width="250" />
-      <img src="./images/deviceframes (6).png" width="250" />
-      <p>
-        I developed Arc Launcher, an Android launcher application designed to
-        customize and enhance the user's home screen experience. Arc Launcher
-        allows users to personalize their device with custom widgets, app icons,
-        and themes. Additionally, it integrates various APIs to provide
-        real-time weather updates, calendar events, and news feeds directly on
-        the home screen.
-      </p>
-
-      <h3>Key Features:</h3>
-      <ul>
-        <li>Customizable home screen with personalized widgets and themes</li>
-        <li>
-          Integration with various APIs for weather updates, calendar events,
-          and news feeds
-        </li>
-        <li>User-friendly interface with intuitive navigation</li>
-      </ul>
-
-      <h3>Technologies Used:</h3>
-      <ul>
-        <li>Java: Programming language for Android app development</li>
-        <li>XML: Markup language for defining app layouts</li>
-        <li>
-          Android Studio: Development environment for Android applications
-        </li>
-        <li>
-          API Integration: Utilized various APIs for weather, calendar, and news
-          feeds
-        </li>
-      </ul>
-    </div>
-  </body>
-  <br>
-  <hr>
-  <footer>
-    <ul>
-        <li>
-            <a href="index.html">Home</a>
-        </li>
-        <li>
-            <a href="about_me.html">About me</a>
-        </li>
-        <li>
-            <a href="projects.html">projects</a>
-        </li>
-        <li>
-            <a href="contect.html">contect</a>
-        </li>
-    </ul>
-    <!-- Social link -->
-    <h3>contect me</h3>
-    <div>
-        <a href="https://www.linkedin.com/in/gaurav-lakhera/"><img src="./images/linkdin.png" width="30"></a>
-        <a href="https://github.com/GauravLakhera"><img src="./images/github.png" width="30"></a>
-        <a href="mailto:gauravlakhera01@gmail.com"><img src="./images/email.png" width="30"></a>
-        <a href="tel:+917906154013"><img src="./images/phone.png" width="30"></a>
-      &copy; Gaurav Lakhera
-    </div>
-
-  </footer>
 </html>

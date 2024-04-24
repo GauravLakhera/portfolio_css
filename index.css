@@ -1,7 +1,22 @@
 html {
   background-color: rgb(255, 255, 255);
+  font-family:"Raleway",sans-serif;
 }
-
+.underline{
+    text-decoration: underline;
+}
+.list_decoration{
+    list-style: none;
+}
+.font_weight_2{
+    font-weight: 550;
+    
+}
+.flex{
+    display: flex;
+    align-items: center;
+    margin-top: -15px;
+}
 body {
   width: 70%;
   margin: auto;
@@ -11,7 +26,6 @@ body {
 /* Navbar */
 .header {
   display: flex;
-  font-family:"Raleway",sans-serif;
   justify-content: space-between;
   align-items: center;
 }
@@ -24,7 +38,6 @@ body {
 .nav_list > li {
   margin-right: 20px;
   font-size: 20px;
-  font-family:"Raleway",sans-serif;
 }
 .nav_list > li > a {
   text-decoration: none;
@@ -41,7 +54,6 @@ body {
   display: flex;
   align-items: center;
   font-size: 20px;
-  font-family:"Raleway",sans-serif;
 }
 .p_top {
   flex: 0 0 75%;
@@ -62,11 +74,66 @@ body {
 }
 .hero_section_2>h1{
     text-align: center;
-    font-family:"Raleway",sans-serif;
     font-weight:normal;
     font-size: 35px;
 }
 .card_container{
 display: flex;
+padding: 1.2rem;
 
+}
+.card_container>div:hover{
+    background-color: rgb(239, 239, 239);
+}
+.card_container>div{
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+}
+.card_container>div>h3{
+font-weight: 600;
+}
+
+/* Project seaction */
+.table{
+    border: 1px solid black;
+    padding: 1.2rem;
+}
+.thead>tr>th{
+    border-bottom: 1px solid black;
+    font-weight: 600;
+    font-size: large;
+}
+.tbody>tr>th{
+border-right: 1px solid black;
+}
+.project_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.hidden_text {
+    opacity: 0; 
+    visibility: hidden; 
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: opacity 0.9s ease-in-out, visibility 0.9s ease-in-out; /* Smooth transition for opacity and visibility */
+}
+
+.img {
+    transform: translate(50%);
+    transition: transform 0.9s ease-in-out; /* Smooth transition for image */
+}
+
+.project_container:hover>img {
+    transform: translateX(-4%); /* Move the image slightly on hover */
+}
+
+.project_container:hover > .hidden_text {
+    opacity: 1; /* Set opacity to 1 when hovering over .img */
+    visibility: visible; /* Make the hidden text visible */
 }
