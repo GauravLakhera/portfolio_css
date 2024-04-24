@@ -300,3 +300,16 @@ padding: 10px;
     font-size: 15px;
     cursor: pointer;
 }
+
+.technical_skills{
+    display: flex;
+    justify-content: space-around;
+    padding: 0.5rem;
+
+}
+.technical_skills>div>p{
+    padding: 10px;
+}
+.technical_skills>div>img{
+    padding: 10px;
+}
