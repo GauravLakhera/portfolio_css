@@ -15,7 +15,10 @@ html {
 .flex{
     display: flex;
     align-items: center;
-    margin-top: -15px;
+    margin-top: -10px;
+}
+.margin_right{
+    margin-right: 5px;
 }
 body {
   width: 70%;
@@ -113,7 +116,7 @@ border-right: 1px solid black;
     align-items: center;
     
 }
-
+/* Project.html seaction */
 .hidden_text {
     opacity: 0; 
     visibility: hidden; 
@@ -136,4 +139,21 @@ border-right: 1px solid black;
 .project_container:hover > .hidden_text {
     opacity: 1; /* Set opacity to 1 when hovering over .img */
     visibility: visible; /* Make the hidden text visible */
+}
+
+.project_container_2{
+    display: flex;
+    flex-direction: column;
+}
+.image_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image_container>img{
+    transition: transform 0.5s ease-in-out;
+}
+.image_container>img:hover{
+    transform: scale(1.4, 1.3);
+
 }
