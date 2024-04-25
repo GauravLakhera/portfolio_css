@@ -15,6 +15,9 @@ a{
 a:hover{
     text-decoration: underline;
 }
+p{
+    line-height: 30px;
+}
 input{
     border: 1px solid rgb(210, 210, 210);
     padding: 0.5rem;
