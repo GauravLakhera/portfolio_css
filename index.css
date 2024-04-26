@@ -122,7 +122,10 @@ body {
 }
 
 video {
-  width: 550px;
+  width: 500px;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 /* Think. Create. Iterate. seaction */
 
@@ -193,7 +196,7 @@ video {
   transition: transform 0.5s ease-in-out;
 }
 .image_container > img:hover {
-  transform: scale(1.4, 1.3);
+  transform: scale(1.2, 1.2);
 }
 
 /* Footer */
@@ -373,9 +376,12 @@ footer > div > ul > li > a {
     font-size: 15px;
     text-align: center;
   }
+
   video {
-    width: 400px;
-    padding: 0px;
+    width: 290px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
   .hero_section_p{
     line-height:35px ;
@@ -420,7 +426,7 @@ footer > div > ul > li > a {
     transition: transform 0.5s ease-in-out;
   }
   .image_container > img:hover {
-    transform: scale(1.4, 1.3);
+    transform: scale(1.3, 1.3);
   }
   .technical_skills {
     display: flex;
@@ -473,5 +479,15 @@ footer > div > ul > li > a {
     margin-top: 2.5rem;
     margin-bottom: 2.5rem;
     box-shadow: 0 25px 60px -15px rgb(0 0 0 / 0.25);
+  }
+  .card_container {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+  }
+  .card_container > div {
+    border: 1px solid rgb(196, 196, 196);
+    margin-top: 10px;
+    padding: 10px;
   }
 }
